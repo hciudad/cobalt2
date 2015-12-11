@@ -462,7 +462,7 @@
     {
         "class": "sidebar_tree",
         "row_padding": [8, 4],
-        "indent": 10,
+        "indent": 18,
         "indent_offset": 15,
         "indent_top_level": false,
         "dark_content": true
@@ -605,7 +605,7 @@
         "class": "disclosure_button_control",
         "content_margin": [8, 8],
         "layer0.texture": "Theme - Cobalt2/Cobalt2/group-closed.png",
-        "layer0.opacity": 1.0,
+        "layer0.opacity": 0.0,
         "layer0.inner_margin": 0
     },
     {
@@ -640,18 +640,18 @@
     // Sidebar folder closed
     {
         "class": "icon_folder",
-        "layer0.texture": "Theme - Cobalt2/icons/folder.png",
-        "layer0.opacity": 1,
+        "layer0.texture": "Theme - Cobalt2/Cobalt2/group-closed.png",
+        "layer0.opacity": 0.5,
         "layer0.inner_margin": 0,
-        "content_margin": [0,0] // hide for now until we get better icons
+        "content_margin": [8, 8]
     },
     // Sidebar folder opened
     {
         "class": "icon_folder",
         "parents": [{ "class": "tree_row", "attributes": ["expanded"]}],
-        "layer0.texture": "Theme - Cobalt2/icons/folder_open@2x.png",
-        "layer0.inner_margin": -5,
-        "content_margin": [0,0] // hide for now until we get better icons
+        "layer0.texture": "Theme - Cobalt2/Cobalt2/group-open.png",
+        "layer0.inner_margin": 0,
+        "content_margin": [8, 8]
     },
 //
 // STANDARD TEXT BUTTONS
